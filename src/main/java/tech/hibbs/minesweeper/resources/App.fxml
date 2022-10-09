@@ -42,6 +42,7 @@
             vgap="10"
         >
             <Text
+                fx:id="welcomeText"
                 GridPane.columnIndex="0"
                 GridPane.rowIndex="0"
                 GridPane.columnSpan="2"

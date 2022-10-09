@@ -2,9 +2,14 @@
     -fx-background-image: url("img/background.jpg");
 }
 
+* {
+    -fx-scale: 2;
+}
+
 #top {
     -fx-padding: 10;
 }
 
-#center {
+#welcomeText {
+    -fx-font-size: 30;
 }
