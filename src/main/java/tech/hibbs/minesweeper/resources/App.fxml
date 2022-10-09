@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?language javascript?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.TextAlignment?>
+
+
+<BorderPane
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="tech.hibbs.minesweeper.AppController"
+>
+    <stylesheets>
+        <URL value="@App.css" />
+    </stylesheets>
+
+    <top>
+        <MenuBar>
+            <menus>
+                <Menu text="File">
+                    <MenuItem text="Quit" onAction="#fileQuitAction" />
+                </Menu>
+                <Menu text="Help">
+                    <MenuItem text="About" onAction="#fileHelpAboutAction" />
+                </Menu>
+            </menus>    
+        </MenuBar>
+    </top>
+
+    <center>
+        <GridPane
+            fx:id="center"
+            alignment="center"
+            hgap="10"
+            vgap="10"
+        >
+            <Text
+                GridPane.columnIndex="0"
+                GridPane.rowIndex="0"
+                GridPane.columnSpan="2"
+                GridPane.rowSpan="1"
+            >
+                Welcome!
+            </Text>
+
+            <Label
+                GridPane.columnIndex="0"
+                GridPane.rowIndex="1"
+            >
+                Username
+            </Label>
+            <TextField
+                GridPane.columnIndex="1"
+                GridPane.rowIndex="1"
+            >
+            </TextField>
+
+            <Label
+                GridPane.columnIndex="0"
+                GridPane.rowIndex="2"
+            >
+                Password
+            </Label>
+            <PasswordField
+                GridPane.columnIndex="1"
+                GridPane.rowIndex="2"
+            >
+            </PasswordField>
+
+            <HBox 
+                GridPane.columnIndex="1"
+                GridPane.rowIndex="3"
+                
+                spacing="10" 
+                alignment="BOTTOM_RIGHT"
+            >
+                <Button 
+                    text="Sign in" 
+                    onAction="#handleButtonAction"
+                />
+            </HBox>
+
+        </GridPane>
+    </center>
+</BorderPane>

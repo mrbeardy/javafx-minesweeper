@@ -1,0 +1,13 @@
+.root {
+    -fx-background-image: url("img/background.jpg");
+}
+
+.centerAligned {
+    -fx-alignment: center;
+}
+
+Rectangle {
+    -fx-fill: transparent;
+    -fx-stroke: black;
+    -fx-stroke-width: 2;
+}

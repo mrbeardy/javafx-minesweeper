@@ -1,0 +1,10 @@
+.root {
+    -fx-background-image: url("img/background.jpg");
+}
+
+#top {
+    -fx-padding: 10;
+}
+
+#center {
+}

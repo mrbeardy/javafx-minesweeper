@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?language javascript?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.TextAlignment?>
+
+<TilePane 
+    xmlns:fx="http://javafx.com/fxml"
+    fx:id="tilePane"
+    vgap="10" 
+    orientation="vertical" 
+    tileAlignment="center" 
+    styleClass="centerAligned"
+>
+    <stylesheets>
+        <URL value="@About.css" />
+    </stylesheets>
+
+    <HBox>
+        <VBox>
+            <Text>Hello</Text>
+
+            <Rectangle height="100" width="100" />
+        </VBox>
+    </HBox>
+</TilePane>
