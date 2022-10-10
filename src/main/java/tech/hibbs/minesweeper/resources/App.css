@@ -1,5 +1,5 @@
 .root {
-    -fx-background-image: url("img/background.jpg");
+    -fx-background: #292929;
 }
 
 * {
@@ -12,4 +12,10 @@
 
 #welcomeText {
     -fx-font-size: 30;
+}
+
+#tiles {
+    -fx-padding: 10;
+    -fx-hgap: 5;
+    -fx-vgap: 5;
 }

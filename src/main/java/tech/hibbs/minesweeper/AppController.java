@@ -25,7 +25,7 @@ public class AppController {
     }
 
     public void fileQuitAction(ActionEvent event) {
-        Alert quitAlert = new Alert(AlertType.CONFIRMATION, "Are you sure you want to quit?", ButtonType.YES, ButtonType.NO);
+        Alert quitAlert = new Alert(AlertType.CONFIRMATION, "Are you sure you want to quit?", ButtonType.NO, ButtonType.YES);
 
         quitAlert.showAndWait().ifPresent(response -> {
             if (response == ButtonType.YES) {
